@@ -1,0 +1,10 @@
+color1{
+    /* normal type  */
+    color: red;
+    /* rbg type */
+    color: rgb(255, 0, 0);
+    /* hex type */
+    color: #ff0000;
+    /* alpha */
+    color: rgba(255, 0, 0, 1);
+}
