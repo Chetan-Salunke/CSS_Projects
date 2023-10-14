@@ -1,0 +1,12 @@
+/* relative size --> %,rem,em; */
+/* absolute size -->px,in,pt */
+
+h1{
+    font-size: 20px
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 20pt;
+}
