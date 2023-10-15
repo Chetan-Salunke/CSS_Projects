@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.div1{
+    width: 80%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 250px;
+}
