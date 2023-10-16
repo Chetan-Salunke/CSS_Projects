@@ -1,0 +1,13 @@
+.div1{
+    background-color: red;
+    /* display: inline; we can not set height and weight */
+    /* display: inline-block; we can set height and weight */
+    /* visibility: hidden; sapce is taken but content is hideen */
+    /* display: none; space and content is also gone  */
+    /* display: block; by default every element is block element expet span tag */
+    
+}
+.div2{
+    background-color: blue;
+    display: inline;
+}
