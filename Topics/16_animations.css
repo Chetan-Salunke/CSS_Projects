@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation prop */
+    animation-name: widthAnimation;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+@keyframes widthAnimation {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 100vw;
+    }
+    
+}
