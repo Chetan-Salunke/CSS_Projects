@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 455px;
+}
+.box1{
+    border: 2px solid black;
+    /* transform- prop */
+    /* 1 in translate we can move x anis and y axis  */
+    /* 2 transform: translate(30px); */
+    /* 3 in rotate we want to add 0.5 turn like a value */
+    /* 4 transform: rotate(0.1turn); */
+    /* 5 transform origin we can set from which point we want to move a box or container */
+    /* 6 transform-origin: 0; */
+    /* 7 we have scal prop in css for expan the box or container; */
+    /* 8 transform: skew(15deg, 10deg); */
+}
+
+/* transition prop */
+
+.container2{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+
+.container2:hover{
+    border: 5px solid red;
+    background-color: blueviolet;
+    transition-duration: 2s;
+    width: 150px;
+    height: 150px;
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 2s; */
+}
